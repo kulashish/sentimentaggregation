@@ -1,0 +1,3249 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+	 <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	 <!ENTITY rdf_ 'http://protege.stanford.edu/rdf'>
+	 <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+]>
+<rdf:RDF xmlns:rdf="&rdf;"
+	 xmlns:rdf_="&rdf_;"
+	 xmlns:rdfs="&rdfs;">
+<rdfs:Class rdf:about="&rdf_;A_D_R_Mixer"
+	 rdfs:comment="aka Automated Dialogue Replacement Mixer"
+	 rdfs:label="A_D_R_Mixer">
+	<rdfs:subClassOf rdf:resource="&rdf_;Post_Production_Sound_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Acting"
+	 rdfs:label="Acting">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Acting_Assistance"
+	 rdfs:label="Acting_Assistance">
+	<rdfs:subClassOf rdf:resource="&rdf_;Acting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Acting_Performance"
+	 rdfs:label="Acting_Performance">
+	<rdfs:subClassOf rdf:resource="&rdf_;Acting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Acting_Preparation"
+	 rdfs:label="Acting_Preparation">
+	<rdfs:subClassOf rdf:resource="&rdf_;Acting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Acting_Process"
+	 rdfs:label="Acting_Process">
+	<rdfs:subClassOf rdf:resource="&rdf_;Acting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Acting_Quality"
+	 rdfs:label="Acting_Quality">
+	<rdfs:subClassOf rdf:resource="&rdf_;Acting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Acting_Role"
+	 rdfs:label="Acting_Role">
+	<rdfs:subClassOf rdf:resource="&rdf_;Acting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Action"
+	 rdfs:label="Action">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Actor"
+	 rdfs:comment="e.g. matinee idol, method (actor), star, superstar, queen"
+	 rdfs:label="Actor">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Adaptation_Of_Source_Material"
+	 rdfs:label="Adaptation_Of_Source_Material">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Process"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Adventure"
+	 rdfs:label="Adventure">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Animating"
+	 rdfs:label="Animating">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Post-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Animator"
+	 rdfs:label="Animator">
+	<rdfs:subClassOf rdf:resource="&rdf_;Visual_Effects_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Art_Department"
+	 rdfs:comment="Designs sets and creates graphic art. (Source: Wikipedia)"
+	 rdfs:label="Art_Department">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Art_Direction"
+	 rdfs:label="Art_Direction">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design_Art"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Art_Director"
+	 rdfs:label="Art_Director">
+	<rdfs:subClassOf rdf:resource="&rdf_;Art_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Assistant_Director"
+	 rdfs:label="Assistant_Director">
+	<rdfs:comment>Assists film director and production manager (Source: Wikipedia).</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Best_Boy_Electrical"
+	 rdfs:label="Best_Boy_Electrical">
+	<rdfs:subClassOf rdf:resource="&rdf_;Electrical_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Best_Boy_Grip"
+	 rdfs:label="Best_Boy_Grip">
+	<rdfs:subClassOf rdf:resource="&rdf_;Camera_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Boom_Operator"
+	 rdfs:label="Boom_Operator">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Sound_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Budget_Management"
+	 rdfs:label="Budget_Management">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Management"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Camera_Crew"
+	 rdfs:label="Camera_Crew">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Camera_Operator"
+	 rdfs:label="Camera_Operator">
+	<rdfs:subClassOf rdf:resource="&rdf_;Camera_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Casting_Director"
+	 rdfs:label="Casting_Director">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema"
+	 rdfs:label="Cinema">
+	<rdfs:subClassOf rdf:resource="&rdf_;Example_Template"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Synonym_Template"/>
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Aesthetic"
+	 rdfs:label="Cinema_Aesthetic">
+	<rdfs:comment>Note: Topics involving art and philosophy, and what it means to be cinematically artistic, beautiful, etc.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_As_Communication"
+	 rdfs:label="Cinema_As_Communication">
+	<rdfs:comment>Topics involving how cinema is used as a form of communication.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Award"
+	 rdfs:label="Cinema_Award">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Recognition"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Censorship"
+	 rdfs:label="Cinema_Censorship">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Club"
+	 rdfs:label="Cinema_Club">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Organization"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Culture"
+	 rdfs:label="Cinema_Culture">
+	<rdfs:comment>Artistic, social, and intellectual aspects of films, looked at collectively.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Education"
+	 rdfs:comment="Academic study of cinema. See also: Filmmaking_Education."
+	 rdfs:label="Cinema_Education">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Geography"
+	 rdfs:comment="See also: Film_Industry_Center."
+	 rdfs:label="Cinema_Geography">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_History"
+	 rdfs:label="Cinema_History">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_List"
+	 rdfs:label="Cinema_List">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Recognition"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Organization"
+	 rdfs:label="Cinema_Organization">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Person"
+	 rdfs:comment="Members of the broad film community."
+	 rdfs:label="Cinema_Person">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Politics"
+	 rdfs:label="Cinema_Politics">
+	<rdfs:comment>Note: Covers political aspects of cinema, such as those typically discussed in scholarly analysis and criticism.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Poll"
+	 rdfs:label="Cinema_Poll">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Recognition"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Publication"
+	 rdfs:label="Cinema_Publication">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Recognition"
+	 rdfs:label="Cinema_Recognition">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Sociology"
+	 rdfs:comment="Topics relating cinema to society."
+	 rdfs:label="Cinema_Sociology">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinema_Theory"
+	 rdfs:label="Cinema_Theory">
+	<rdfs:comment>See also: Cinema_As_Communication, Cinema_Aesthetic, Cinema_Politics.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinematographer"
+	 rdfs:label="Cinematographer">
+	<rdfs:subClassOf rdf:resource="&rdf_;Camera_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinematography"
+	 rdfs:label="Cinematography">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinematography_Camera"
+	 rdfs:label="Cinematography_Camera">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinematography"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinematography_Grip"
+	 rdfs:label="Cinematography_Grip">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinematography"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Cinematography_Lighting"
+	 rdfs:label="Cinematography_Lighting">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinematography"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Clapper_Loader"
+	 rdfs:label="Clapper_Loader">
+	<rdfs:subClassOf rdf:resource="&rdf_;Camera_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Colorist"
+	 rdfs:label="Colorist">
+	<rdfs:subClassOf rdf:resource="&rdf_;Editorial_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Comedy"
+	 rdfs:comment="NOTE: this class has been expanded as an example."
+	 rdfs:label="Comedy">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Comedy_Black"
+	 rdfs:comment="Synonym comic-picaresque."
+	 rdfs:label="Comedy_Black">
+	<rdfs:subClassOf rdf:resource="&rdf_;Comedy"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Comedy_Deadpan"
+	 rdfs:label="Comedy_Deadpan">
+	<rdfs:subClassOf rdf:resource="&rdf_;Comedy"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Comedy_Farce"
+	 rdfs:label="Comedy_Farce">
+	<rdfs:subClassOf rdf:resource="&rdf_;Comedy"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Comedy_Manners"
+	 rdfs:label="Comedy_Manners">
+	<rdfs:subClassOf rdf:resource="&rdf_;Comedy"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Comedy_Satire"
+	 rdfs:label="Comedy_Satire">
+	<rdfs:subClassOf rdf:resource="&rdf_;Comedy"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Comedy_Screwball"
+	 rdfs:label="Comedy_Screwball">
+	<rdfs:subClassOf rdf:resource="&rdf_;Comedy"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Comedy_Slapstick"
+	 rdfs:label="Comedy_Slapstick">
+	<rdfs:subClassOf rdf:resource="&rdf_;Comedy"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Composer"
+	 rdfs:label="Composer">
+	<rdfs:subClassOf rdf:resource="&rdf_;Post_Production_Sound_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Composing"
+	 rdfs:label="Composing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Post-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Compositor"
+	 rdfs:label="Compositor">
+	<rdfs:subClassOf rdf:resource="&rdf_;Visual_Effects_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Construction"
+	 rdfs:label="Construction">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design_Sets"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Construction_Coordinator"
+	 rdfs:comment="aka construction manager"
+	 rdfs:label="Construction_Coordinator">
+	<rdfs:subClassOf rdf:resource="&rdf_;Art_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Costume_Designer"
+	 rdfs:label="Costume_Designer">
+	<rdfs:subClassOf rdf:resource="&rdf_;Art_Department"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Wardrobe"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Costumer"
+	 rdfs:label="Costumer">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Crime"
+	 rdfs:label="Crime">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Critic"
+	 rdfs:comment="See also: reviewer."
+	 rdfs:label="Critic">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Person"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Dialogue_Editing"
+	 rdfs:label="Dialogue_Editing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Sound_Editing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Dialogue_Editor"
+	 rdfs:label="Dialogue_Editor">
+	<rdfs:subClassOf rdf:resource="&rdf_;Post_Production_Sound_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Dialogue_List"
+	 rdfs:label="Dialogue_List">
+	<rdfs:comment>A written verbatim transcript of all dialogue in a film, used for dubbing and subtitle translations.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Associated_Product"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Distribution"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Directing"
+	 rdfs:label="Directing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Process"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Directing_Assistance"
+	 rdfs:label="Directing_Assistance">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Management"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Directing_Of_Actors"
+	 rdfs:label="Directing_Of_Actors">
+	<rdfs:subClassOf rdf:resource="&rdf_;Directing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Directing_Process"
+	 rdfs:label="Directing_Process">
+	<rdfs:subClassOf rdf:resource="&rdf_;Directing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Directing_Purpose"
+	 rdfs:label="Directing_Purpose">
+	<rdfs:subClassOf rdf:resource="&rdf_;Directing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Director"
+	 rdfs:comment="e.g. documentarist, storyteller, auteur"
+	 rdfs:label="Director">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Distributor"
+	 rdfs:label="Distributor">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Person"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Dolly_Grip"
+	 rdfs:label="Dolly_Grip">
+	<rdfs:subClassOf rdf:resource="&rdf_;Camera_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Drama"
+	 rdfs:label="Drama">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Editorial_Department"
+	 rdfs:label="Editorial_Department">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Electrical_Department"
+	 rdfs:label="Electrical_Department">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Epic"
+	 rdfs:label="Epic">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Erotica"
+	 rdfs:label="Erotica">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Example_Template"
+	 rdfs:label="Example_Template">
+	<rdfs:subClassOf rdf:resource="&rdfs;Class"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Excerpt"
+	 rdfs:label="Excerpt">
+	<rdfs:comment>A segment extracted from a film, typically for re-use in various ways, such as advertising or (separate) film production.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Associated_Product"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Executive_Producer"
+	 rdfs:label="Executive_Producer">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Executive_Producing"
+	 rdfs:comment="Note: typically an investor in the film production project."
+	 rdfs:label="Executive_Producing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Producing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Exhibitor"
+	 rdfs:label="Exhibitor">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Person"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Fan"
+	 rdfs:label="Fan">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Person"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Fantasy"
+	 rdfs:label="Fantasy">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film"
+	 rdfs:comment="Intrinsic aspects of films, looked at individually."
+	 rdfs:label="Film">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Action"
+	 rdfs:label="Film_Action">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Action_Stunt"
+	 rdfs:label="Film_Action_Stunt">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Action"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Advertising"
+	 rdfs:label="Film_Advertising">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Distribution"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Analysis"
+	 rdfs:comment="Analytical response to viewing film."
+	 rdfs:label="Film_Analysis">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Animated"
+	 rdfs:label="Film_Animated">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Type"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Aspect"
+	 rdfs:label="Film_Aspect">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Associated_Product"
+	 rdfs:label="Film_Associated_Product">
+	<rdfs:comment>Materials produced in conjunction with the production, distribution, and exhibition of a film.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Budget"
+	 rdfs:comment="See also Screenwriting (estimating script)."
+	 rdfs:label="Film_Budget">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Finance"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character"
+	 rdfs:label="Film_Character">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Component"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Appearance"
+	 rdfs:label="Film_Character_Appearance">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Aspect"
+	 rdfs:label="Film_Character_Aspect">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Behavior"
+	 rdfs:label="Film_Character_Behavior">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Being"
+	 rdfs:label="Film_Character_Being">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Condition"
+	 rdfs:label="Film_Character_Condition">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Event"
+	 rdfs:label="Film_Character_Event">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Experience"
+	 rdfs:label="Film_Character_Experience">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_History"
+	 rdfs:label="Film_Character_History">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Lifestyle"
+	 rdfs:label="Film_Character_Lifestyle">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Motivation"
+	 rdfs:label="Film_Character_Motivation">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Occupation"
+	 rdfs:label="Film_Character_Occupation">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Relationship"
+	 rdfs:label="Film_Character_Relationship">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Role"
+	 rdfs:label="Film_Character_Role">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Situation"
+	 rdfs:label="Film_Character_Situation">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Character_Trait"
+	 rdfs:comment="Distinguishing characteristic or feature."
+	 rdfs:label="Film_Character_Trait">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Character_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Component"
+	 rdfs:comment="Perceptible part of a film."
+	 rdfs:label="Film_Component">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Credit"
+	 rdfs:label="Film_Credit">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Component"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Crew"
+	 rdfs:label="Film_Crew">
+	<rdfs:comment>Group of people hired by production company to help make films. (Source: Wikipedia)</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Dialogue"
+	 rdfs:label="Film_Dialogue">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Component"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Distribution"
+	 rdfs:label="Film_Distribution">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Industry"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Distribution_Company"
+	 rdfs:comment="Company that distributes films."
+	 rdfs:label="Film_Distribution_Company">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Distribution"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Documentary"
+	 rdfs:label="Film_Documentary">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Type"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Editing"
+	 rdfs:label="Film_Editing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Post-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Editor"
+	 rdfs:label="Film_Editor">
+	<rdfs:comment>e.g. (editor) is faced with the task of making sense out of it (the film)</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Editorial_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Exhibition"
+	 rdfs:label="Film_Exhibition">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Industry"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Exhibition_Company"
+	 rdfs:comment="Company that exhibits films."
+	 rdfs:label="Film_Exhibition_Company">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Exhibition"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Exhibition_Venue"
+	 rdfs:label="Film_Exhibition_Venue">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Exhibition"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Experimental"
+	 rdfs:label="Film_Experimental">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Type"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Fact"
+	 rdfs:label="Film_Fact">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Fandom"
+	 rdfs:comment="See also Film_Viewing."
+	 rdfs:label="Film_Fandom">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Festival"
+	 rdfs:label="Film_Festival">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Finance"
+	 rdfs:label="Film_Finance">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Industry"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Finance_Deal"
+	 rdfs:label="Film_Finance_Deal">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Finance"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Form"
+	 rdfs:label="Film_Form">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Format"
+	 rdfs:label="Film_Format">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Fact"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Frame"
+	 rdfs:comment="A single frame of motion picture film."
+	 rdfs:label="Film_Frame">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Segment"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Genre"
+	 rdfs:label="Film_Genre">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Mainstream"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Guild"
+	 rdfs:label="Film_Guild">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Organization"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Industry"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Industry"
+	 rdfs:comment="Film manufacturing and business."
+	 rdfs:label="Film_Industry">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Industry_Center"
+	 rdfs:label="Film_Industry_Center">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Industry"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Institute"
+	 rdfs:label="Film_Institute">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Organization"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Investment"
+	 rdfs:label="Film_Investment">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Finance"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Language"
+	 rdfs:label="Film_Language">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Fact"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Legal"
+	 rdfs:comment="See also: Cinema_Censorship."
+	 rdfs:label="Film_Legal">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Industry"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Length"
+	 rdfs:label="Film_Length">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Fact"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Mainstream"
+	 rdfs:label="Film_Mainstream">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Type"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Makeup_and_Hair"
+	 rdfs:label="Film_Makeup_and Hair">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Component"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Marketing"
+	 rdfs:label="Film_Marketing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Distribution"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Merchandising"
+	 rdfs:comment="Product sales and marketing that stems from film."
+	 rdfs:label="Film_Merchandising">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Industry"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Music"
+	 rdfs:label="Film_Music">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Component"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Noir"
+	 rdfs:label="Film_Noir">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Origin"
+	 rdfs:label="Film_Origin">
+	<rdfs:comment>The country of the principal offices of the film production company or individual.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Geography"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Fact"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Production"
+	 rdfs:comment="See also: Filmmaking"
+	 rdfs:label="Film_Production">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Industry"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Production_Company"
+	 rdfs:label="Film_Production_Company">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Property"
+	 rdfs:label="Film_Property">
+	<rdfs:comment>Note: Physical objects used in a film. Not to be confused with source material for a prospective film.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Component"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Public_Relations"
+	 rdfs:label="Film_Public_Relations">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Industry"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Quality"
+	 rdfs:label="Film_Quality">
+	<rdfs:comment>Characteristics used to describe and form opinions about films.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Release"
+	 rdfs:label="Film_Release">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Fact"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Review_and_Criticism"
+	 rdfs:label="Film_Review_and_Criticism">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Scale"
+	 rdfs:label="Film_Scale">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Scene"
+	 rdfs:label="Film_Scene">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Segment"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Segment"
+	 rdfs:comment="Physical or temporal part of a film."
+	 rdfs:label="Film_Segment">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Sequence"
+	 rdfs:label="Film_Sequence">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Segment"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Setting"
+	 rdfs:label="Film_Setting">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Component"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Setting_Domicile"
+	 rdfs:label="Film_Setting_Domicile">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Setting_Place"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Setting_Environment"
+	 rdfs:label="Film_Setting_Environment">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Setting_Place"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Setting_Geography"
+	 rdfs:label="Film_Setting_Geography">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Setting_Place"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Setting_Period"
+	 rdfs:label="Film_Setting_Period">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Setting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Setting_Place"
+	 rdfs:label="Film_Setting_Place">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Setting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Setting_Scope"
+	 rdfs:label="Film_Setting_Scope">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Setting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Setting_Situation"
+	 rdfs:label="Film_Setting_Situation">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Setting"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Setting_Workplace"
+	 rdfs:label="Film_Setting_Workplace">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Setting_Place"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Shot"
+	 rdfs:label="Film_Shot">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Segment"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Silent"
+	 rdfs:label="Film_Silent">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Type"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Sound"
+	 rdfs:label="Film_Sound">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Component"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source"
+	 rdfs:comment="The basis of the film."
+	 rdfs:label="Film_Source">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source_Activity"
+	 rdfs:label="Film_Source_Activity">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Source"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source_Artwork"
+	 rdfs:label="Film_Source_Artwork">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Source_Product"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source_History"
+	 rdfs:label="Film_Source_History">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Source"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source_Issue"
+	 rdfs:label="Film_Source_Issue">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Source"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source_Media"
+	 rdfs:label="Film_Source_Media">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Source_Product"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source_Performing_Arts"
+	 rdfs:label="Film_Source_Performing_Arts">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Source_Product"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source_Person"
+	 rdfs:label="Film_Source_Person">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Source"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source_Photography"
+	 rdfs:label="Film_Source_Photography">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Source_Media"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source_Product"
+	 rdfs:label="Film_Source_Product">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Source"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source_Radio"
+	 rdfs:label="Film_Source_Radio">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Source_Media"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source_Setting"
+	 rdfs:label="Film_Source_Setting">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Source"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source_Television"
+	 rdfs:label="Film_Source_Television">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Source_Media"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Source_Writing"
+	 rdfs:label="Film_Source_Writing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Source_Product"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Special_Effect"
+	 rdfs:label="Film_Special_Effect">
+	<rdfs:comment>Mechanical and optical effects produced during production phase.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Component"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Story"
+	 rdfs:label="Film_Story">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Story_Element"
+	 rdfs:label="Film_Story_Element">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Story"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Story_Narrative"
+	 rdfs:label="Film_Story_Narrative">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Story"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Story_Summary"
+	 rdfs:label="Film_Story_Summary">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Story"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Structure"
+	 rdfs:label="Film_Structure">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Structure_Design"
+	 rdfs:label="Film_Structure_Design">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Structure"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Structure_Element"
+	 rdfs:label="Film_Structure_Element">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Structure"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Studies_School"
+	 rdfs:label="Film_Studies_School">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Education"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Organization"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Style"
+	 rdfs:label="Film_Style">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Subtitle"
+	 rdfs:comment="See also Translation, Silent_Film."
+	 rdfs:label="Film_Subtitle">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Component"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Theme"
+	 rdfs:label="Film_Theme">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Title"
+	 rdfs:label="Film_Title">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Component"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Title_Alternate"
+	 rdfs:label="Film_Title_Alternate">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Title"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Title_English"
+	 rdfs:label="Film_Title_English">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Title"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Title_Original"
+	 rdfs:label="Film_Title_Original">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Title"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Title_Working"
+	 rdfs:label="Film_Title_Working">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Title"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Topic"
+	 rdfs:label="Film_Topic">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Aspect"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Topic_Discourse"
+	 rdfs:comment='As in film "text".'
+	 rdfs:label="Film_Topic_Discourse">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Topic"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Type"
+	 rdfs:label="Film_Type">
+	<rdfs:comment>Note: Includes categories deriving from purpose (e.g. fiction, documentary) or process (e.g. live-action, animation) of production, as well as more specific sub-categories based on filmmaking trends, and also traditional genres.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Version"
+	 rdfs:label="Film_Version">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Fact"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Viewing"
+	 rdfs:label="Film_Viewing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Viewing_Audience"
+	 rdfs:label="Film_Viewing_Audience">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Viewing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Viewing_Commerce"
+	 rdfs:label="Film_Viewing_Commerce">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Industry"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Viewing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Viewing_Control"
+	 rdfs:label="Film_Viewing_Control">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Viewing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Viewing_Effect"
+	 rdfs:label="Film_Viewing_Effect">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Viewing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Viewing_Interaction"
+	 rdfs:label="Film_Viewing_Interaction">
+	<rdfs:comment>Interaction between viewer and film, or filmmaker, typically on an emotional or intellectual level, during or after viewing.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Viewing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Viewing_Requirement"
+	 rdfs:label="Film_Viewing_Requirement">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Viewing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Viewing_Understanding"
+	 rdfs:label="Film_Viewing_Understanding">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Viewing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Visual_Effect"
+	 rdfs:label="Film_Visual_Effect">
+	<rdfs:comment>Digital image effects produced during post-production phase. See also: Filmmaking_Storyboarding.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Component"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Film_Wardrobe"
+	 rdfs:label="Film_Wardrobe">
+	<rdfs:comment>e.g. fashion, shabby / voluminous shabby dresses / tattered, funky, bedecked in</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Component"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaker"
+	 rdfs:label="Filmmaker">
+	<rdfs:comment>A person involved in the making of films. Note: this part of the class hierarchy is derived from Wikipedia Film Crew page ( http://en.wikipedia.org/wiki/Film_crew ).</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Person"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaker_Specialty"
+	 rdfs:label="Filmmaker_Specialty">
+	<rdfs:comment>A filmmaker's specific role or responsibility. Approximately 50 sub-classes are included here, which do not comprehensively cover all jobs or roles.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking"
+	 rdfs:comment="The making of films. See also: Film_Production."
+	 rdfs:label="Filmmaking">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Culture"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Budgeting"
+	 rdfs:comment="See also Film_Budget, Screenwriting (estimating script)"
+	 rdfs:label="Filmmaking_Budgeting">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Pre-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Casting"
+	 rdfs:label="Filmmaking_Casting">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Pre-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Challenge"
+	 rdfs:label="Filmmaking_Challenge">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Process"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Convention"
+	 rdfs:comment="Traditional or customary filmmaking practice."
+	 rdfs:label="Filmmaking_Convention">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Development"
+	 rdfs:label="Filmmaking_Development">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Process"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Equipment"
+	 rdfs:label="Filmmaking_Equipment">
+	<rdfs:comment>Equipment needed for the film production process, not otherwise covered in specific filmmaking areas and techniques. See Filmmaking_Process.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Location"
+	 rdfs:label="Filmmaking_Location">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Pre-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Post-Production"
+	 rdfs:label="Filmmaking_Post-Production">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Process"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Pre-Production"
+	 rdfs:label="Filmmaking_Pre-Production">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Process"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Process"
+	 rdfs:label="Filmmaking_Process">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Production"
+	 rdfs:label="Filmmaking_Production">
+	<rdfs:comment>The principal photography and sound recording phase of the  making an individual film.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Process"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Rehearsal"
+	 rdfs:comment="See also: Acting, Directing_Of_Actors."
+	 rdfs:label="Filmmaking_Rehearsal">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Pre-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Research"
+	 rdfs:label="Filmmaking_Research">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Pre-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Scheduling"
+	 rdfs:label="Filmmaking_Scheduling">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Pre-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_School"
+	 rdfs:label="Filmmaking_School">
+	<rdfs:comment>Professional training in filmmaking. See also Cinema_Education.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Education"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Organization"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Screenwriting"
+	 rdfs:comment="e.g."
+	 rdfs:label="Filmmaking_Screenwriting">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Development"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Storyboarding"
+	 rdfs:label="Filmmaking_Storyboarding">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Pre-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Filmmaking_Treatment"
+	 rdfs:label="Filmmaking_Treatment">
+	<rdfs:comment>Initial proposal for a film, typically in the form of a short written story narrative.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Development"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Focus_Puller"
+	 rdfs:label="Focus_Puller">
+	<rdfs:subClassOf rdf:resource="&rdf_;Camera_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Foley_Artist"
+	 rdfs:label="Foley_Artist">
+	<rdfs:subClassOf rdf:resource="&rdf_;Post_Production_Sound_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Foley_Mixer"
+	 rdfs:label="Foley_Mixer">
+	<rdfs:subClassOf rdf:resource="&rdf_;Post_Production_Sound_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Gaffer"
+	 rdfs:label="Gaffer">
+	<rdfs:subClassOf rdf:resource="&rdf_;Electrical_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Hairdresser"
+	 rdfs:comment="aka hair stylist"
+	 rdfs:label="Hairdresser">
+	<rdfs:subClassOf rdf:resource="&rdf_;Art_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Horror"
+	 rdfs:label="Horror">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Illustration"
+	 rdfs:label="Illustration">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Associated_Product"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design_Art"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Key_Grip"
+	 rdfs:label="Key_Grip">
+	<rdfs:subClassOf rdf:resource="&rdf_;Camera_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Laboratory_Processing"
+	 rdfs:label="Laboratory_Processing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Post-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Lighting_Technician"
+	 rdfs:label="Lighting_Technician">
+	<rdfs:subClassOf rdf:resource="&rdf_;Electrical_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Line_Producer"
+	 rdfs:label="Line_Producer">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Office"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Loader"
+	 rdfs:label="Loader">
+	<rdfs:subClassOf rdf:resource="&rdf_;Camera_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Location_Management"
+	 rdfs:label="Location_Management">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Management"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Location_Manager"
+	 rdfs:label="Location_Manager">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Office"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Location_Scout"
+	 rdfs:label="Location_Scout">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Office"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Makeup_Artist"
+	 rdfs:label="Makeup_Artist">
+	<rdfs:subClassOf rdf:resource="&rdf_;Art_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Matte_Painter"
+	 rdfs:label="Matte_Painter">
+	<rdfs:subClassOf rdf:resource="&rdf_;Visual_Effects_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Matte_Painting"
+	 rdfs:label="Matte_Painting">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design_Special_Effects"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Melodrama"
+	 rdfs:label="Melodrama">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Music_Soundtrack"
+	 rdfs:label="Music_Soundtrack">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Associated_Product"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Merchandising"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Music_Supervision"
+	 rdfs:label="Music_Supervision">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Post-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Music_Supervisor"
+	 rdfs:label="Music_Supervisor">
+	<rdfs:subClassOf rdf:resource="&rdf_;Post_Production_Sound_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Musical"
+	 rdfs:label="Musical">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Mystery"
+	 rdfs:label="Mystery">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Negative_Cutter"
+	 rdfs:label="Negative_Cutter">
+	<rdfs:subClassOf rdf:resource="&rdf_;Editorial_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Other"
+	 rdfs:comment="Filmmaker categories not otherwise covered."
+	 rdfs:label="Other">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Post_Production_Sound_Department"
+	 rdfs:label="Post_Production_Sound_Department">
+	<rdfs:subClassOf rdf:resource="&rdf_;Sound_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Producer"
+	 rdfs:label="Producer">
+	<rdfs:comment>Typically, the person responsible for the overall production of a film.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Office"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Producing"
+	 rdfs:label="Producing">
+	<rdfs:comment>Note: includes management, coordination, and administration of  film production.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Process"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Assistance"
+	 rdfs:label="Production_Assistance">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Management"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Assistant"
+	 rdfs:label="Production_Assistant">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Office"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Coordination"
+	 rdfs:label="Production_Coordination">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Management"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Coordinator"
+	 rdfs:label="Production_Coordinator">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Office"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Design"
+	 rdfs:label="Production_Design">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Design_Art"
+	 rdfs:label="Production_Design_Art">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Design_Makeup_and_Hair"
+	 rdfs:label="Production_Design_Makeup_and_Hair">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Design_Process"
+	 rdfs:label="Production_Design_Process">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Design_Props"
+	 rdfs:label="Production_Design_Props">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Design_Sets"
+	 rdfs:label="Production_Design_Sets">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Design_Special_Effects"
+	 rdfs:label="Production_Design_Special_Effects">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Design_Wardrobe"
+	 rdfs:comment="Note: includes all costume design and fabrication."
+	 rdfs:label="Production_Design_Wardrobe">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Designer"
+	 rdfs:label="Production_Designer">
+	<rdfs:comment>Responsible for creating the physical, visual appearance of the film - settings, costumes, properties, character makeup, all taken as a unit. (Source: Wikipedia)</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Art_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Illustrator"
+	 rdfs:label="Production_Illustrator">
+	<rdfs:subClassOf rdf:resource="&rdf_;Art_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Management"
+	 rdfs:label="Production_Management">
+	<rdfs:subClassOf rdf:resource="&rdf_;Producing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Manager"
+	 rdfs:label="Production_Manager">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Office"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Office"
+	 rdfs:label="Production_Office">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Sound"
+	 rdfs:label="Production_Sound">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Sound_Department"
+	 rdfs:label="Production_Sound_Department">
+	<rdfs:subClassOf rdf:resource="&rdf_;Sound_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Sound_Mixer"
+	 rdfs:label="Production_Sound_Mixer">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Sound_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Production_Sound_Mixing"
+	 rdfs:comment="Note: Includes sound recording."
+	 rdfs:label="Production_Sound_Mixing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Sound"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Props_Master"
+	 rdfs:comment="aka property master"
+	 rdfs:label="Props_Master">
+	<rdfs:subClassOf rdf:resource="&rdf_;Art_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Re-recording_Mixer"
+	 rdfs:label="Re-recording_Mixer">
+	<rdfs:subClassOf rdf:resource="&rdf_;Post_Production_Sound_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Reviewer"
+	 rdfs:comment="See also: critic"
+	 rdfs:label="Reviewer">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Person"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Romance"
+	 rdfs:label="Romance">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Scene_Design"
+	 rdfs:label="Scene_Design">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design_Art"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Scholar"
+	 rdfs:label="Scholar">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Person"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Science_Fiction"
+	 rdfs:label="Science_Fiction">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Screenplay"
+	 rdfs:label="Screenplay">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Associated_Product"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Screenwriter"
+	 rdfs:label="Screenwriter">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Script_Supervision"
+	 rdfs:label="Script_Supervision">
+	<rdfs:subClassOf rdf:resource="&rdf_;Producing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Script_Supervisor"
+	 rdfs:label="Script_Supervisor">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Set_Decoration"
+	 rdfs:label="Set_Decoration">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design_Sets"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Set_Decorator"
+	 rdfs:label="Set_Decorator">
+	<rdfs:subClassOf rdf:resource="&rdf_;Art_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Set_Designer"
+	 rdfs:label="Set_Designer">
+	<rdfs:subClassOf rdf:resource="&rdf_;Art_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Set_Dresser"
+	 rdfs:label="Set_Dresser">
+	<rdfs:subClassOf rdf:resource="&rdf_;Art_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Set_Dressing"
+	 rdfs:label="Set_Dressing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Design_Sets"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Sound_Crew"
+	 rdfs:label="Sound_Crew">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Sound_Editing"
+	 rdfs:label="Sound_Editing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Post-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Sound_Editor"
+	 rdfs:label="Sound_Editor">
+	<rdfs:subClassOf rdf:resource="&rdf_;Post_Production_Sound_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Sound_Effect_Editing"
+	 rdfs:label="Sound_Effect_Editing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Sound_Editing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Sound_Effect_Production"
+	 rdfs:label="Sound_Effect_Production">
+	<rdfs:subClassOf rdf:resource="&rdf_;Sound_Editing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Sound_Recordist"
+	 rdfs:label="Sound_Recordist">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Sound_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Sound_Supervisor"
+	 rdfs:comment="Overall sound supervision."
+	 rdfs:label="Sound_Supervisor">
+	<rdfs:subClassOf rdf:resource="&rdf_;Post_Production_Sound_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Sports"
+	 rdfs:label="Sports">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Steadicam_Operator"
+	 rdfs:label="Steadicam_Operator">
+	<rdfs:subClassOf rdf:resource="&rdf_;Camera_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Still_Photograph"
+	 rdfs:label="Still_Photograph">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Associated_Product"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Distribution"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Exhibition"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Merchandising"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Public_Relations"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Storyboard"
+	 rdfs:label="Storyboard">
+	<rdfs:comment>Illustration used for various filmmaking processes and purposes. See also: Filmmaking_Storyboarding, Production_Design, Visual_Effect_Production.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Associated_Product"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Studio"
+	 rdfs:label="Studio">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Industry_Center"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Studio_Employee"
+	 rdfs:label="Studio_Employee">
+	<rdfs:subClassOf rdf:resource="&rdf_;Studio"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Studio_Management"
+	 rdfs:label="Studio_Management">
+	<rdfs:subClassOf rdf:resource="&rdf_;Studio"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Studio_System"
+	 rdfs:label="Studio_System">
+	<rdfs:subClassOf rdf:resource="&rdf_;Studio"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Stunt_Coordination"
+	 rdfs:label="Stunt_Coordination">
+	<rdfs:subClassOf rdf:resource="&rdf_;Producing"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Stunt_Coordinator"
+	 rdfs:label="Stunt_Coordinator">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Synonym_Template"
+	 rdfs:label="Synonym_Template">
+	<rdfs:subClassOf rdf:resource="&rdfs;Class"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Teacher"
+	 rdfs:label="Teacher">
+	<rdfs:subClassOf rdf:resource="&rdf_;Cinema_Person"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Thriller"
+	 rdfs:label="Thriller">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Trailer"
+	 rdfs:label="Trailer">
+	<rdfs:comment>A promotional composition of excerpts from a film, used for distribution and exhibition.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Associated_Product"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Distribution"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Exhibition"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Translation"
+	 rdfs:label="Translation">
+	<rdfs:comment>Foreign language version. See also: subtitles, dubbing, Dialogue_List.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Associated_Product"/>
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Distribution"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Unit_Management"
+	 rdfs:label="Unit_Management">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Management"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Unit_Manager"
+	 rdfs:label="Unit_Manager">
+	<rdfs:subClassOf rdf:resource="&rdf_;Production_Office"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Visual_Effect_Editing"
+	 rdfs:label="Visual_Effect_Editing">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Post-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Visual_Effect_Production"
+	 rdfs:comment="e.g. special effects"
+	 rdfs:label="Visual_Effect_Production">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaking_Post-Production"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Visual_Effects_Department"
+	 rdfs:label="Visual_Effects_Department">
+	<rdfs:subClassOf rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Visual_Effects_Editor"
+	 rdfs:label="Visual_Effects_Editor">
+	<rdfs:subClassOf rdf:resource="&rdf_;Visual_Effects_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Visual_Effects_Supervisor"
+	 rdfs:label="Visual_Effects_Supervisor">
+	<rdfs:subClassOf rdf:resource="&rdf_;Visual_Effects_Department"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;War"
+	 rdfs:label="War">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Wardrobe"
+	 rdfs:label="Wardrobe">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Crew"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&rdf_;Western"
+	 rdfs:label="Western">
+	<rdfs:subClassOf rdf:resource="&rdf_;Film_Genre"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&rdf_;ability"
+	 rdfs:label="ability">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;abuse"
+	 rdfs:label="abuse">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Experience"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;achievement"
+	 rdfs:label="achievement">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;action"
+	 rdfs:label="action">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;adaptation"
+	 rdfs:label="adaptation">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;adapts"
+	 rdfs:label="adapts">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;advances_career_of"
+	 rdfs:label="advances_career_of">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;age"
+	 rdfs:label="age">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;alienation"
+	 rdfs:label="alienation">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Condition"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Situation"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;analyzes"
+	 rdfs:label="analyzes">
+	<rdfs:domain rdf:resource="&rdf_;Scholar"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;animation"
+	 rdfs:label="animation">
+	<rdfs:range rdf:resource="&rdf_;Film_Type"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;appeal"
+	 rdfs:label="appeal">
+	<rdfs:domain rdf:resource="&rdf_;Actor"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Topic"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;appearance"
+	 rdfs:label="appearance">
+	<rdfs:domain rdf:resource="&rdf_;Actor"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;application"
+	 rdfs:label="application">
+	<rdfs:domain rdf:resource="&rdf_;Cinematography_Lighting"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;appreciates"
+	 rdfs:label="appreciates">
+	<rdfs:domain rdf:resource="&rdf_;Actor"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;appropriateness"
+	 rdfs:label="appropriateness">
+	<rdfs:domain rdf:resource="&rdf_;Actor"/>
+	<rdfs:domain rdf:resource="&rdf_;Director"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;approval"
+	 rdfs:label="approval">
+	<rdfs:domain rdf:resource="&rdf_;Film_Finance_Deal"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;argument"
+	 rdfs:label="argument">
+	<rdfs:domain rdf:resource="&rdf_;Film_Topic_Discourse"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;artistry"
+	 rdfs:label="artistry">
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;assembles"
+	 rdfs:label="assembles">
+	<rdfs:domain rdf:resource="&rdf_;Casting_Director"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Production_Company"/>
+	<rdfs:domain rdf:resource="&rdf_;Producer"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;assembly"
+	 rdfs:label="assembly">
+	<rdfs:domain rdf:resource="&rdf_;Film_Structure_Element"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;assists"
+	 rdfs:comment="e.g. protecting, anticipating, suggesting"
+	 rdfs:label="assists">
+	<rdfs:range rdf:resource="&rdf_;Filmmaker_Specialty"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker_Specialty"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;atmosphere"
+	 rdfs:label="atmosphere">
+	<rdfs:domain rdf:resource="&rdf_;Film_Style"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;attitude"
+	 rdfs:label="attitude">
+	<rdfs:domain rdf:resource="&rdf_;Directing"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Audience"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;attraction"
+	 rdfs:label="attraction">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Effect"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;badness"
+	 rdfs:label="badness">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;basis"
+	 rdfs:label="basis">
+	<rdfs:comment>e.g. principle, premise, concept, vision, philosophy, doctrine</rdfs:comment>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;begins_with"
+	 rdfs:label="begins_with">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;behavior"
+	 rdfs:label="behavior">
+	<rdfs:domain rdf:resource="&rdf_;Acting"/>
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Production_Company"/>
+	<rdfs:domain rdf:resource="&rdf_;Studio"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;betrayal"
+	 rdfs:label="betrayal">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;biography"
+	 rdfs:label="biography">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;black-and-white"
+	 rdfs:label="black-and-white">
+	<rdfs:range rdf:resource="&rdf_;Cinematography"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;body"
+	 rdfs:label="body">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Appearance"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;build-up"
+	 rdfs:label="build-up">
+	<rdfs:domain rdf:resource="&rdf_;Film_Editing"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;capability"
+	 rdfs:label="capability">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Audience"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;career"
+	 rdfs:label="career">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;caretaking"
+	 rdfs:label="caretaking">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;causes"
+	 rdfs:label="causes">
+	<rdfs:range rdf:resource="&rdf_;Cinema"/>
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;challenge"
+	 rdfs:comment="synonym problem."
+	 rdfs:label="challenge">
+	<rdfs:domain rdf:resource="&rdf_;Film_Distribution"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Finance"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Story_Narrative"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Effect"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Convention"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;character"
+	 rdfs:label="character">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;clarity"
+	 rdfs:label="clarity">
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;clothing"
+	 rdfs:label="clothing">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Appearance"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;coherence"
+	 rdfs:label="coherence">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;cohesiveness"
+	 rdfs:label="cohesiveness">
+	<rdfs:domain rdf:resource="&rdf_;Film_Story"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;color"
+	 rdfs:label="color">
+	<rdfs:range rdf:resource="&rdf_;Cinematography"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;comfort"
+	 rdfs:label="comfort">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Lifestyle"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;communication"
+	 rdfs:label="communication">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;comparison"
+	 rdfs:label="comparison">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;competition"
+	 rdfs:label="competition">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Exhibition"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;complexity"
+	 rdfs:label="complexity">
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Story_Narrative"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;composition"
+	 rdfs:comment="e.g. patchwork"
+	 rdfs:label="composition">
+	<rdfs:domain rdf:resource="&rdf_;Film_Editing"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Audience"/>
+	<rdfs:domain rdf:resource="&rdf_;Visual_Effect_Editing"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;composure"
+	 rdfs:label="composure">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;concern"
+	 rdfs:label="concern">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Effect"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;condition"
+	 rdfs:comment="synonym state."
+	 rdfs:label="condition">
+	<rdfs:domain rdf:resource="&rdf_;Film_Theme"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;conflict"
+	 rdfs:label="conflict">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Lifestyle"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Theme"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;conformity"
+	 rdfs:label="conformity">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;confusion"
+	 rdfs:comment="e.g. sometimes confused, confoundment, bewildering."
+	 rdfs:label="confusion">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Understanding"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;connectedness"
+	 rdfs:label="connectedness">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Situation"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;connects_with"
+	 rdfs:label="connects_with">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Audience"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;consideration"
+	 rdfs:label="consideration">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Interaction"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;continuity"
+	 rdfs:label="continuity">
+	<rdfs:domain rdf:resource="&rdf_;Film_Editing"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Story_Narrative"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;contract"
+	 rdfs:comment="synonym deal."
+	 rdfs:label="contract">
+	<rdfs:domain rdf:resource="&rdf_;Film_Distribution"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Legal"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;contributes_to"
+	 rdfs:label="contributes_to">
+	<rdfs:domain rdf:resource="&rdf_;Critic"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:domain rdf:resource="&rdf_;Reviewer"/>
+	<rdfs:domain rdf:resource="&rdf_;Scholar"/>
+	<rdfs:domain rdf:resource="&rdf_;Teacher"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;contribution"
+	 rdfs:label="contribution">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;control"
+	 rdfs:label="control">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Exhibition"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;cooperation"
+	 rdfs:comment="synonym collaboration."
+	 rdfs:label="cooperation">
+	<rdfs:domain rdf:resource="&rdf_;Film_Guild"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;cost"
+	 rdfs:label="cost">
+	<rdfs:domain rdf:resource="&rdf_;Film_Budget"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Distribution"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;courage"
+	 rdfs:label="courage">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;cowardice"
+	 rdfs:label="cowardice">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;credibility"
+	 rdfs:label="credibility">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Story"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;criminality"
+	 rdfs:label="criminality">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;criticizes"
+	 rdfs:label="criticizes">
+	<rdfs:domain rdf:resource="&rdf_;Critic"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;death"
+	 rdfs:label="death">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Experience"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;deception"
+	 rdfs:label="deception">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;deficiency"
+	 rdfs:label="deficiency">
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;defines"
+	 rdfs:label="defines">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;definition"
+	 rdfs:label="definition">
+	<rdfs:domain rdf:resource="&rdf_;Cinematography_Camera"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;demonstrates"
+	 rdfs:label="demonstrates">
+	<rdfs:range rdf:resource="&rdf_;Cinema"/>
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;depends_on"
+	 rdfs:label="depends_on">
+	<rdfs:domain rdf:resource="&rdf_;Film_Industry"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;design"
+	 rdfs:label="design">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;destruction"
+	 rdfs:label="destruction">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Experience"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;detail"
+	 rdfs:label="detail">
+	<rdfs:domain rdf:resource="&rdf_;Film_Structure_Element"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;development"
+	 rdfs:label="development">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Geography"/>
+	<rdfs:domain rdf:resource="&rdf_;Cinema_History"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Theme"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;develops_into"
+	 rdfs:label="develops_into">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;deviates_from"
+	 rdfs:label="deviates_from">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;differentiation"
+	 rdfs:label="differentiation">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;disapproval"
+	 rdfs:label="disapproval">
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;displeasure"
+	 rdfs:label="displeasure">
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;dissapointment"
+	 rdfs:label="dissapointment">
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;distinction"
+	 rdfs:label="distinction">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;distributes"
+	 rdfs:label="distributes">
+	<rdfs:domain rdf:resource="&rdf_;Distributor"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Distribution_Company"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;disturbance"
+	 rdfs:label="disturbance">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Effect"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;does"
+	 rdfs:label="does">
+	<rdfs:range rdf:resource="&rdf_;Cinema"/>
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;eccentricity"
+	 rdfs:label="eccentricity">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;economy"
+	 rdfs:label="economy">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Lifestyle"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;edge"
+	 rdfs:label="edge">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;effect"
+	 rdfs:label="effect">
+	<rdfs:domain rdf:resource="&rdf_;Acting"/>
+	<rdfs:domain rdf:resource="&rdf_;Cinematography_Lighting"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Dialogue"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Music"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Challenge"/>
+	<rdfs:domain rdf:resource="&rdf_;Studio"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;effectiveness"
+	 rdfs:label="effectiveness">
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;effort"
+	 rdfs:label="effort">
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Interaction"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;element"
+	 rdfs:label="element">
+	<rdfs:domain rdf:resource="&rdf_;Acting_Performance"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Dialogue"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Form"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Music"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Product"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Type"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;elicits_response_from"
+	 rdfs:label="elicits_response_from">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;emotionality"
+	 rdfs:label="emotionality">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Experience"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Effect"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;emphasis"
+	 rdfs:label="emphasis">
+	<rdfs:domain rdf:resource="&rdf_;Directing"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;encroachment"
+	 rdfs:label="encroachment">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;ends_with"
+	 rdfs:label="ends_with">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;energy"
+	 rdfs:label="energy">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Style"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;enjoyment"
+	 rdfs:label="enjoyment">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Effect"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;equipment"
+	 rdfs:label="equipment">
+	<rdfs:domain rdf:resource="&rdf_;Cinematography_Camera"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;ethnicity"
+	 rdfs:label="ethnicity">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Origin"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Person"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;event"
+	 rdfs:label="event">
+	<rdfs:domain rdf:resource="&rdf_;Acting_Performance"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Exhibition"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_History"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;example"
+	 rdfs:label="example">
+	<rdfs:range rdf:resource="&rdf_;Cinema"/>
+	<rdfs:domain rdf:resource="&rdf_;Example_Template"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;excellence"
+	 rdfs:label="excellence">
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;excess"
+	 rdfs:label="excess">
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;exhibits"
+	 rdfs:label="exhibits">
+	<rdfs:domain rdf:resource="&rdf_;Exhibitor"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Exhibition_Company"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;existence"
+	 rdfs:label="existence">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;expectation"
+	 rdfs:label="expectation">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;expects"
+	 rdfs:label="expects">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Audience"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;experience"
+	 rdfs:label="experience">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Occupation"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:domain rdf:resource="&rdf_;Studio_Employee"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;expertise"
+	 rdfs:label="expertise">
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;explains"
+	 rdfs:label="explains">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;explores"
+	 rdfs:label="explores">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;expresses"
+	 rdfs:label="expresses">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;expression"
+	 rdfs:label="expression">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_As_Communication"/>
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Directing"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Dialogue"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Theme"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;exterior"
+	 rdfs:label="exterior">
+	<rdfs:domain rdf:resource="&rdf_;Film_Setting"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;face"
+	 rdfs:label="face">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Appearance"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;failure"
+	 rdfs:label="failure">
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;family"
+	 rdfs:label="family">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Relationship"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;fantasy"
+	 rdfs:label="fantasy">
+	<rdfs:domain rdf:resource="&rdf_;Film_Style"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;feel"
+	 rdfs:label="feel">
+	<rdfs:domain rdf:resource="&rdf_;Film_Setting_Place"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Style"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;fictitiousness"
+	 rdfs:label="fictitiousness">
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;fighting"
+	 rdfs:label="fighting">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;filmography"
+	 rdfs:label="filmography">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;finances"
+	 rdfs:label="finances">
+	<rdfs:domain rdf:resource="&rdf_;Film_Finance"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;focus"
+	 rdfs:label="focus">
+	<rdfs:domain rdf:resource="&rdf_;Cinematography_Camera"/>
+	<rdfs:domain rdf:resource="&rdf_;Directing"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Topic"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;form"
+	 rdfs:label="form">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_As_Communication"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Dialogue"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Story_Narrative"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;format"
+	 rdfs:label="format">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Publication"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Exhibition"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Product"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;formula"
+	 rdfs:label="formula">
+	<rdfs:domain rdf:resource="&rdf_;Film_Industry"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;freedom"
+	 rdfs:label="freedom">
+	<rdfs:domain rdf:resource="&rdf_;Film_Theme"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;gender"
+	 rdfs:label="gender">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Person"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;goodness"
+	 rdfs:label="goodness">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;greenlights"
+	 rdfs:comment="aka approves, allows to proceed"
+	 rdfs:label="greenlights">
+	<rdfs:domain rdf:resource="&rdf_;Film_Production_Company"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;grip"
+	 rdfs:label="grip">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Effect"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;group"
+	 rdfs:label="group">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Person"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;has_potential_for"
+	 rdfs:label="has_potential_for">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;humor"
+	 rdfs:label="humor">
+	<rdfs:domain rdf:resource="&rdf_;Film_Action"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Treatment"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;ideology"
+	 rdfs:label="ideology">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Theme"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;impact"
+	 rdfs:label="impact">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Effect"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;impairment"
+	 rdfs:label="impairment">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;importance"
+	 rdfs:label="importance">
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;impression"
+	 rdfs:label="impression">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Effect"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;imprint"
+	 rdfs:label="imprint">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Effect"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;inconsequentiality"
+	 rdfs:label="inconsequentiality">
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;indicates"
+	 rdfs:label="indicates">
+	<rdfs:domain rdf:resource="&rdf_;Film_Component"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;individual"
+	 rdfs:label="individual">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Person"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;infidelity"
+	 rdfs:label="infidelity">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Relationship"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;influences"
+	 rdfs:label="influences">
+	<rdfs:comment>e.g.  inspires, attracts, brings to attention, fascinates, commonly identifies with, appeal is particularly potent, predicts, is remembered / recalled.</rdfs:comment>
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Aspect"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;instrumentation"
+	 rdfs:label="instrumentation">
+	<rdfs:domain rdf:resource="&rdf_;Cinematography_Lighting"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;integration"
+	 rdfs:label="integration">
+	<rdfs:domain rdf:resource="&rdf_;Film_Structure_Element"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;integrity"
+	 rdfs:label="integrity">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;intelligence"
+	 rdfs:label="intelligence">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;intensity"
+	 rdfs:label="intensity">
+	<rdfs:domain rdf:resource="&rdf_;Cinematography_Lighting"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;interaction"
+	 rdfs:label="interaction">
+	<rdfs:domain rdf:resource="&rdf_;Film_Structure_Element"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;interacts_with"
+	 rdfs:label="interacts_with">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Audience"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;interior"
+	 rdfs:label="interior">
+	<rdfs:domain rdf:resource="&rdf_;Film_Setting"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;interpretation"
+	 rdfs:label="interpretation">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;is_adapted_from"
+	 rdfs:label="is_adapted_from">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;is_associated_with"
+	 rdfs:label="is_associated_with">
+	<rdfs:domain rdf:resource="&rdf_;Film_Associated_Product"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;is_commissioned_by"
+	 rdfs:label="is_commissioned_by">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;is_innovator_of"
+	 rdfs:label="is_innovator_of">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;is_noteworthy_for"
+	 rdfs:label="is_noteworthy_for">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;is_part_of"
+	 rdfs:label="is_part_of">
+	<rdfs:range rdf:resource="&rdf_;Cinema"/>
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;is_ranked_in"
+	 rdfs:label="is_ranked_in">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;is_segment_of"
+	 rdfs:label="is_segment_of">
+	<rdfs:range rdf:resource="&rdf_;Film"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Segment"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;is_set_in"
+	 rdfs:label="is_set_in">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;is_similar_to"
+	 rdfs:label="is_similar_to">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdf_;Film"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;is_suitable_for"
+	 rdfs:label="is_suitable_for">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;is_variation_of"
+	 rdfs:label="is_variation_of">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;language"
+	 rdfs:label="language">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_As_Communication"/>
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Publication"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;leader"
+	 rdfs:label="leader">
+	<rdfs:domain rdf:resource="&rdf_;Film_Guild"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;leads_to"
+	 rdfs:label="leads_to">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;live-action"
+	 rdfs:label="live-action">
+	<rdfs:range rdf:resource="&rdf_;Film_Type"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;location"
+	 rdfs:label="location">
+	<rdfs:domain rdf:resource="&rdf_;Film_Industry_Center"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;look"
+	 rdfs:label="look">
+	<rdfs:domain rdf:resource="&rdf_;Film_Style"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;love"
+	 rdfs:label="love">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Experience"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Relationship"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;makes_money_for"
+	 rdfs:label="makes_money_for">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdf_;Film_Industry"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;makes_money_from"
+	 rdfs:label="makes_money_from">
+	<rdfs:domain rdf:resource="&rdf_;Film_Industry"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;manages"
+	 rdfs:label="manages">
+	<rdfs:domain rdf:resource="&rdf_;Art_Director"/>
+	<rdfs:domain rdf:resource="&rdf_;Cinematographer"/>
+	<rdfs:domain rdf:resource="&rdf_;Construction_Coordinator"/>
+	<rdfs:domain rdf:resource="&rdf_;Gaffer"/>
+	<rdfs:domain rdf:resource="&rdf_;Key_Grip"/>
+	<rdfs:domain rdf:resource="&rdf_;Producer"/>
+	<rdfs:domain rdf:resource="&rdf_;Production_Designer"/>
+	<rdfs:domain rdf:resource="&rdf_;Sound_Supervisor"/>
+	<rdfs:domain rdf:resource="&rdf_;Visual_Effects_Supervisor"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;manner"
+	 rdfs:label="manner">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;markets_to"
+	 rdfs:label="markets_to">
+	<rdfs:domain rdf:resource="&rdf_;Film_Industry"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;mating"
+	 rdfs:label="mating">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Relationship"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;meaning"
+	 rdfs:label="meaning">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Lifestyle"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Title"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;measure"
+	 rdfs:comment="synonym assessment, criterion."
+	 rdfs:label="measure">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;mediocrity"
+	 rdfs:label="mediocrity">
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;melodrama"
+	 rdfs:label="melodrama">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;member"
+	 rdfs:label="member">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Organization"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;message"
+	 rdfs:label="message">
+	<rdfs:domain rdf:resource="&rdf_;Film_Topic_Discourse"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;misfortune"
+	 rdfs:label="misfortune">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Experience"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;motif"
+	 rdfs:label="motif">
+	<rdfs:domain rdf:resource="&rdf_;Film_Theme"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;motivation"
+	 rdfs:label="motivation">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;movement"
+	 rdfs:label="movement">
+	<rdfs:domain rdf:resource="&rdf_;Cinematography_Camera"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;myth"
+	 rdfs:label="myth">
+	<rdfs:domain rdf:resource="&rdf_;Fantasy"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;name"
+	 rdfs:label="name">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Organization"/>
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Publication"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Distribution_Company"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Exhibition_Company"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Exhibition_Venue"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Festival"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Industry_Center"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Production_Company"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Product"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Title"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;narrative"
+	 rdfs:label="narrative">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;nationality"
+	 rdfs:label="nationality">
+	<rdfs:domain rdf:resource="&rdf_;Film_Origin"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Production_Company"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Audience"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;naturalness"
+	 rdfs:label="naturalness">
+	<rdfs:domain rdf:resource="&rdf_;Film_Style"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;obsession"
+	 rdfs:label="obsession">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;online"
+	 rdfs:comment="synonym internet, web."
+	 rdfs:label="online">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Publication"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;operation"
+	 rdfs:label="operation">
+	<rdfs:domain rdf:resource="&rdf_;Cinematography_Camera"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;oppression"
+	 rdfs:label="oppression">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Experience"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;order"
+	 rdfs:label="order">
+	<rdfs:domain rdf:resource="&rdf_;Film_Story_Narrative"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Structure_Element"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;origin"
+	 rdfs:label="origin">
+	<rdfs:domain rdf:resource="&rdf_;Film_Investment"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Product"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;originality"
+	 rdfs:comment="aka innovativeness, inventiveness."
+	 rdfs:label="originality">
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;output"
+	 rdfs:label="output">
+	<rdfs:domain rdf:resource="&rdf_;Film_Industry_Center"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Production"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;owns_rights_for"
+	 rdfs:label="owns_rights_for">
+	<rdfs:domain rdf:resource="&rdf_;Film_Distribution_Company"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Production_Company"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;pace"
+	 rdfs:label="pace">
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Story_Narrative"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;participant"
+	 rdfs:label="participant">
+	<rdfs:domain rdf:resource="&rdf_;Film_Finance_Deal"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;participation"
+	 rdfs:label="participation">
+	<rdfs:domain rdf:resource="&rdf_;Film_Finance_Deal"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Interaction"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;pathology"
+	 rdfs:label="pathology">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Condition"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;pathway"
+	 rdfs:label="pathway">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_History"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;pattern"
+	 rdfs:label="pattern">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Structure"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;pays_for"
+	 rdfs:label="pays_for">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Audience"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;perfection"
+	 rdfs:label="perfection">
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;performance"
+	 rdfs:label="performance">
+	<rdfs:domain rdf:resource="&rdf_;Actor"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Distribution"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Exhibition"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Merchandising"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;period"
+	 rdfs:comment="synonym age, era, time."
+	 rdfs:label="period">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_History"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Setting"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_History"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Audience"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;philosophy"
+	 rdfs:label="philosophy">
+	<rdfs:domain rdf:resource="&rdf_;Film_Theme"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;place"
+	 rdfs:label="place">
+	<rdfs:domain rdf:resource="&rdf_;Film_Release"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Setting"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;placement"
+	 rdfs:label="placement">
+	<rdfs:domain rdf:resource="&rdf_;Cinematography_Camera"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;planning"
+	 rdfs:label="planning">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Pre-Production"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;pleasure"
+	 rdfs:label="pleasure">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Experience"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;precision"
+	 rdfs:label="precision">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;prediction"
+	 rdfs:label="prediction">
+	<rdfs:domain rdf:resource="&rdf_;Film_Distribution"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Theme"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;preparation"
+	 rdfs:label="preparation">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Production"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;presentation"
+	 rdfs:label="presentation">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;print"
+	 rdfs:label="print">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Publication"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;process"
+	 rdfs:label="process">
+	<rdfs:domain rdf:resource="&rdf_;Film_Distribution"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Exhibition"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Merchandising"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;produces"
+	 rdfs:label="produces">
+	<rdfs:range rdf:resource="&rdf_;Cinema"/>
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Production_Company"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;profession"
+	 rdfs:label="profession">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Occupation"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;progression"
+	 rdfs:label="progression">
+	<rdfs:domain rdf:resource="&rdf_;Film_Story"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;publication_date"
+	 rdfs:label="publication_date">
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Product"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;purpose"
+	 rdfs:label="purpose">
+	<rdfs:domain rdf:resource="&rdf_;Film_Action"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Dialogue"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Music"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Topic_Discourse"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;question"
+	 rdfs:label="question">
+	<rdfs:domain rdf:resource="&rdf_;Film_Topic_Discourse"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;receives"
+	 rdfs:label="receives">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Audience"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;recognition"
+	 rdfs:label="recognition">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;reflection"
+	 rdfs:label="reflection">
+	<rdfs:domain rdf:resource="&rdf_;Directing_Purpose"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;reflects"
+	 rdfs:label="reflects">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;rejection"
+	 rdfs:label="rejection">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;release_date"
+	 rdfs:label="release_date">
+	<rdfs:domain rdf:resource="&rdf_;Film_Distribution"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Release"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;relevance"
+	 rdfs:label="relevance">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Topic"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;religion"
+	 rdfs:comment="synonym faith."
+	 rdfs:label="religion">
+	<rdfs:domain rdf:resource="&rdf_;Film_Theme"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;reports_to"
+	 rdfs:label="reports_to">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker_Specialty"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;represents"
+	 rdfs:comment="e.g. refers to, is based on, takes place of."
+	 rdfs:label="represents">
+	<rdfs:domain rdf:resource="&rdf_;Actor"/>
+	<rdfs:range rdf:resource="&rdf_;Film"/>
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;reputation"
+	 rdfs:label="reputation">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Distribution_Company"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Exhibition_Venue"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;requirement"
+	 rdfs:label="requirement">
+	<rdfs:domain rdf:resource="&rdf_;Film_Finance"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Casting"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;reviews"
+	 rdfs:label="reviews">
+	<rdfs:domain rdf:resource="&rdf_;Reviewer"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;rhythm"
+	 rdfs:label="rhythm">
+	<rdfs:domain rdf:resource="&rdf_;Film_Editing"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;role"
+	 rdfs:label="role">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;running_time"
+	 rdfs:label="running_time">
+	<rdfs:domain rdf:resource="&rdf_;Film_Length"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;scale"
+	 rdfs:label="scale">
+	<rdfs:domain rdf:resource="&rdf_;Film_Production"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;scope"
+	 rdfs:comment="aka range, view."
+	 rdfs:label="scope">
+	<rdfs:domain rdf:resource="&rdf_;Film_Industry"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Theme"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Topic"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Audience"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;searching"
+	 rdfs:label="searching">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;sells_to"
+	 rdfs:label="sells_to">
+	<rdfs:domain rdf:resource="&rdf_;Film_Industry"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;sensibility"
+	 rdfs:label="sensibility">
+	<rdfs:domain rdf:resource="&rdf_;Directing"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;sensuality"
+	 rdfs:label="sensuality">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;setting"
+	 rdfs:label="setting">
+	<rdfs:domain rdf:resource="&rdf_;Film_Setting"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;severity"
+	 rdfs:label="severity">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Challenge"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;sexuality"
+	 rdfs:label="sexuality">
+	<rdfs:domain rdf:resource="&rdf_;Actor"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Relationship"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;significance"
+	 rdfs:label="significance">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Topic"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;situation"
+	 rdfs:label="situation">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Interaction"/>
+	<rdfs:domain rdf:resource="&rdf_;Studio_Employee"/>
+	<rdfs:domain rdf:resource="&rdf_;Studio_Management"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;size"
+	 rdfs:label="size">
+	<rdfs:domain rdf:resource="&rdf_;Film_Budget"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Distribution_Company"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Exhibition_Company"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Exhibition_Venue"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Production_Company"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;skill"
+	 rdfs:label="skill">
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;socialization"
+	 rdfs:label="socialization">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;sound"
+	 rdfs:label="sound">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;source"
+	 rdfs:label="source">
+	<rdfs:domain rdf:resource="&rdf_;Cinematography_Lighting"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;spans"
+	 rdfs:label="spans">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;spirituality"
+	 rdfs:label="spirituality">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;sponsor"
+	 rdfs:label="sponsor">
+	<rdfs:domain rdf:resource="&rdf_;Film_Festival"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;sport"
+	 rdfs:label="sport">
+	<rdfs:domain rdf:resource="&rdf_;Film_Action"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;stature"
+	 rdfs:comment="See also reputation."
+	 rdfs:label="stature">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Quality"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;status"
+	 rdfs:label="status">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;stimulation"
+	 rdfs:label="stimulation">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Interaction"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;strength"
+	 rdfs:label="strength">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;style"
+	 rdfs:label="style">
+	<rdfs:domain rdf:resource="&rdf_;Actor"/>
+	<rdfs:domain rdf:resource="&rdf_;Cinema_As_Communication"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Trait"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Dialogue"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Music"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Story_Narrative"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;suffering"
+	 rdfs:label="suffering">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Experience"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;suggestion"
+	 rdfs:label="suggestion">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Interaction"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;superiority"
+	 rdfs:label="superiority">
+	<rdfs:domain rdf:resource="&rdf_;Film_Review_and_Criticism"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;support"
+	 rdfs:label="support">
+	<rdfs:domain rdf:resource="&rdf_;Film_Guild"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Convention"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;surrealism"
+	 rdfs:label="surrealism">
+	<rdfs:domain rdf:resource="&rdf_;Film_Form"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Visual_Effect"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Treatment"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;suspicion"
+	 rdfs:label="suspicion">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;symbol"
+	 rdfs:label="symbol">
+	<rdfs:domain rdf:resource="&rdf_;Film_Structure_Element"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;synonym"
+	 rdfs:label="synonym">
+	<rdfs:range rdf:resource="&rdf_;Cinema"/>
+	<rdfs:domain rdf:resource="&rdf_;Synonym_Template"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;taboo"
+	 rdfs:label="taboo">
+	<rdfs:domain rdf:resource="&rdf_;Film_Theme"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;taste"
+	 rdfs:label="taste">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Audience"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;teaches"
+	 rdfs:label="teaches">
+	<rdfs:domain rdf:resource="&rdf_;Teacher"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;technique"
+	 rdfs:label="technique">
+	<rdfs:domain rdf:resource="&rdf_;Film_Story_Narrative"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaking_Process"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;temperament"
+	 rdfs:label="temperament">
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;texture"
+	 rdfs:label="texture">
+	<rdfs:domain rdf:resource="&rdf_;Film_Style"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;theory"
+	 rdfs:label="theory">
+	<rdfs:domain rdf:resource="&rdf_;Film_Analysis"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;thought"
+	 rdfs:label="thought">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;thrill"
+	 rdfs:label="thrill">
+	<rdfs:domain rdf:resource="&rdf_;Film_Action"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;tone"
+	 rdfs:label="tone">
+	<rdfs:domain rdf:resource="&rdf_;Film_Style"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;trait"
+	 rdfs:comment="Synonym characteristic feature."
+	 rdfs:label="trait">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Production_Company"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Studio"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;venue"
+	 rdfs:label="venue">
+	<rdfs:domain rdf:resource="&rdf_;Film_Festival"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Release"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;version"
+	 rdfs:label="version">
+	<rdfs:domain rdf:resource="&rdf_;Film_Source_Product"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Version"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;viewpoint"
+	 rdfs:comment="synonym p.o.v., perspective."
+	 rdfs:label="viewpoint">
+	<rdfs:domain rdf:resource="&rdf_;Cinema_Person"/>
+	<rdfs:domain rdf:resource="&rdf_;Directing"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;views"
+	 rdfs:label="views">
+	<rdfs:domain rdf:resource="&rdf_;Film_Viewing_Audience"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;violence"
+	 rdfs:label="violence">
+	<rdfs:domain rdf:resource="&rdf_;Film_Action"/>
+	<rdfs:domain rdf:resource="&rdf_;Film_Character_Behavior"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;visual_effect"
+	 rdfs:label="visual_effect">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;was_assigned_by"
+	 rdfs:label="was_assigned_by">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;was_assigned_to"
+	 rdfs:label="was_assigned_to">
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;weight"
+	 rdfs:label="weight">
+	<rdfs:domain rdf:resource="&rdf_;Film_Style"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&rdf_;wins"
+	 rdfs:label="wins">
+	<rdfs:domain rdf:resource="&rdf_;Film"/>
+	<rdfs:domain rdf:resource="&rdf_;Filmmaker"/>
+	<rdfs:range rdf:resource="&rdfs;Resource"/>
+</rdf:Property>
+</rdf:RDF>
